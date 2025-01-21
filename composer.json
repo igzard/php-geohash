@@ -1,12 +1,12 @@
 {
-    "name": "igzard/php-skeleton",
-    "description": "🎉 This skeleton PHP package created for your new package idea",
+    "name": "igzard/php-geohash",
+    "description": "Geohash calculation in PHP",
     "type": "library",
-    "keywords": ["php", "skeleton", "package"],
+    "keywords": ["php", "geohash", "package"],
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Igzard\\PhpSkeleton\\": "src/"
+            "Igzard\\Geohash\\": "src/"
         }
     },
     "authors": [
