@@ -4,10 +4,12 @@ declare(strict_types=1);
 
 namespace Igzard\Geohash\Domain;
 
+use Igzard\Geohash\Contract\GeohashCalculatorInterface;
+
 /**
  * @internal
  */
-final class GeohashCalculator
+final class Base32GeohashCalculator implements GeohashCalculatorInterface
 {
     private const string BASE32 = '0123456789bcdefghjkmnpqrstuvwxyz';
 
